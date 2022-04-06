@@ -1,5 +1,5 @@
 # Survey 6 ( Prototype )
-This repo is a prototype for [this](https://github.com/web-telescope/survey6) project
+This repo is a prototype for [Survey 6](https://github.com/web-telescope/survey6) project of [ScoreLabs](https://scorelab.org/)
 
 ## About
 ### Description
