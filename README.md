@@ -75,13 +75,11 @@ Install gRPC tools
 python -m pip install grpcio-tools
 ```
 <br></br>
-These reference documents are easy to refer :)
-<br></br>
 
 > Current dependencies and requirements are as per linux based systems
 
 ## Usage
-1. Activate the virtual Environment
+1. Activate the virtual environment
 ```
 source venv/bin/activate
 ```
@@ -101,8 +99,9 @@ python server.py
 ```
 5. Build probe - In a new terminal
 ```
-mkdir -p probe/cmake/build
-cd probe/cmake/build
+cd probe
+mkdir -p cmake/build
+cd cmake/build
 cmake -DCMAKE_PREFIX_PATH=$MY_INSTALL_DIR ../..
 make
 ```
@@ -111,8 +110,8 @@ make
 ./client
 ```
 ## Output
-![commands](https://github.com/dhruvi29/survey6-prototype/tree/main/screenshots/output1.png)
-![output](https://github.com/dhruvi29/survey6-prototype/tree/main/screenshots/output2.png)
+<img src="https://github.com/dhruvi29/survey6-prototype/tree/main/screenshots/output1.png"/>
+<img src="https://github.com/dhruvi29/survey6-prototype/tree/main/screenshots/output2.png"/>
 
 
 
