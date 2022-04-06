@@ -21,12 +21,11 @@ The server also logs the dummy packets.
 .
 ├── ip6.proto
 ├── server
-│   ├── ip6_pb2_grpc.py
-│   ├── ip6_pb2.py
 │   ├── server.py
 ├── probe
 │   ├── CMakeLists.txt
 │   └── client.cc
+├── screenshots
 └── README.md
 ```
 
