@@ -132,7 +132,7 @@ void SendPackets(){
 
     while(true){
         auto t = time(NULL) - start;
-        std::cout<<t<<"\n";
+        std::cout<<"Network idle for: "<<t<<"s\n";
         if(t >= 5 && !pkts.empty()){
             client.sendPacket(1,2);
             pkts.pop();
