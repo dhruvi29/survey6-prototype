@@ -110,8 +110,8 @@ make
 ./client
 ```
 ## Output
-<img src="https://github.com/dhruvi29/survey6-prototype/tree/main/screenshots/output1.png"/>
-<img src="https://github.com/dhruvi29/survey6-prototype/tree/main/screenshots/output2.png"/>
+<img src="https://github.com/dhruvi29/survey6-prototype/blob/main/screenshots/output1.png"/>
+<img src="https://github.com/dhruvi29/survey6-prototype/blob/main/screenshots/output2.png"/>
 
 
 
