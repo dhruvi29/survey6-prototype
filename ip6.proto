@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_package = "ex.grpc";
+
+package ip6;
+
+service Packet{
+    rpc sendPacket(PacketRequest) returns (PacketRecieved) {}
+}
+
+service Heart{
+    rpc sendHeartBeat(Artery) returns (Vein){}
+}
+message Artery{
+    int32 a = 1;
+}
+message Vein{
+    int32 a = 1;
+}
+message PacketRequest{
+    int32 a = 1;
+    int32 b = 2;
+}
+
+message PacketRecieved{
+    int32 result = 1;
+}
