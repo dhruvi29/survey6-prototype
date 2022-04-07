@@ -1,16 +1,22 @@
 # Survey 6 ( Prototype )
 This repo is a prototype for [this](https://github.com/web-telescope/survey6) project
 
+<img src="https://github.com/dhruvi29/survey6-prototype/blob/main/screenshots/output3.gif" />
+
 ## About
 ### Description
 Project: Ipv6 is the internet's future, and it necessitated a more scalable survey tool to comprehend how routing and DNS function. The purpose of this project is to create an IPv6 listener that will passively collect IPv6 traffic data as a passive data collection tool for cyber security research.
 <br></br>
 Prototype: In this protype, 
 * The probe captures the IPv4 packets
-* It sends dummy packet using gRPC requests to the server whenever the host network is idle for more than *5s*.
-* The probe sends heart beats to the server every 2 seconds for health check. This is again done using gRPC. 
-The server collects the pulses and logs them in the terminal.
-The server also logs the dummy packets.
+* It sends dummy packet using gRPC requests to the server whenever the host network is idle for more than **5 seconds**.
+* The probe sends heart beats to the server every **2 seconds** for health check. This is again done using gRPC. <br></br>
+The server collects the pulses and logs them in the terminal.<br></br>
+The server also logs the recieved dummy packet number.
+
+## Output
+<img src="https://github.com/dhruvi29/survey6-prototype/blob/main/screenshots/output1.png"/>
+<img src="https://github.com/dhruvi29/survey6-prototype/blob/main/screenshots/output2.png"/>
 
 ### Tech Stack
 1. libpcap
@@ -109,9 +115,7 @@ make
 ```
 ./client
 ```
-## Output
-<img src="https://github.com/dhruvi29/survey6-prototype/blob/main/screenshots/output1.png"/>
-<img src="https://github.com/dhruvi29/survey6-prototype/blob/main/screenshots/output2.png"/>
+
 
 
 
