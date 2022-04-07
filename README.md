@@ -1,5 +1,5 @@
 # Survey 6 ( Prototype )
-This repo is a prototype for [this](https://github.com/web-telescope/survey6) project
+This repo is a prototype for [Survey 6](https://github.com/web-telescope/survey6) project of [ScoreLabs](https://scorelab.org/)
 
 <img src="https://github.com/dhruvi29/survey6-prototype/blob/main/screenshots/output3.gif" />
 
@@ -27,12 +27,11 @@ The server also logs the recieved dummy packet number.
 .
 ├── ip6.proto
 ├── server
-│   ├── ip6_pb2_grpc.py
-│   ├── ip6_pb2.py
 │   ├── server.py
 ├── probe
 │   ├── CMakeLists.txt
 │   └── client.cc
+├── screenshots
 └── README.md
 ```
 
