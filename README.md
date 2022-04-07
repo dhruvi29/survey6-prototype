@@ -1,9 +1,9 @@
 # Survey 6 ( Prototype )
 This repo is a prototype for [Survey 6](https://github.com/web-telescope/survey6) project of [ScoreLabs](https://scorelab.org/)
-<br></br>
+<img src="https://github.com/dhruvi29/survey6-prototype/blob/main/screenshots/output3.gif" ></img>
 Please find better quality video <a href = "https://drive.google.com/file/d/1pdec5jsAKsF6kJXJ16b1UgV-itqieYPz/view?usp=sharing"> here </a>
 
-<img src="https://github.com/dhruvi29/survey6-prototype/blob/main/screenshots/output3.gif" ></img>
+
 
 
 ## About
