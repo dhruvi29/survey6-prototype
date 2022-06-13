@@ -24,7 +24,7 @@ class HeartService(pb2_grpc.HeartServicer):
 
     def sendHeartBeat(self,request,context):
         print("Pulse recieved")
-        result = {'a': 1}
+        result = {'a': 5}
         return pb2.Vein(**result)
 
 

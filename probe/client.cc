@@ -24,6 +24,8 @@ using ip6::PacketRecieved;
 
 using namespace std;
 
+
+// Fake packets send
 class PacketClient {
     public:
         PacketClient(std::shared_ptr<Channel> channel) : stub_(Packet::NewStub(channel)) {}
@@ -53,7 +55,7 @@ class PacketClient {
         std::unique_ptr<Packet::Stub> stub_;
 };
 
-
+// Heartbeat Required message
 class HeartClient {
     public:
         HeartClient(std::shared_ptr<Channel> channel) : stub_(Heart::NewStub(channel)) {}
